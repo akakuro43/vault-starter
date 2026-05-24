@@ -59,6 +59,8 @@ python3 skills/mtg-importer/scripts/fetch_transcripts.py
 
 下流の skill (meeting-summarizer / person-enricher / vault-resolver) は LLM 推論を必要とするため、Hermes か Claude Code Routines から呼んでください。詳細は [docs/scheduling-examples.md](docs/scheduling-examples.md)。
 
+> **スクリーンショット付きの詳細手順**は [docs/install-guide.md](docs/install-guide.md) (note 公開向けドラフト) を参照してください。
+
 ## ディレクトリ構成
 
 ```
