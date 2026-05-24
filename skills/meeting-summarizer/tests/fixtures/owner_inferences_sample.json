@@ -1,0 +1,37 @@
+[
+  {
+    "item_content": "AtomicFlow の API 仕様書を作成する",
+    "owner": "endo",
+    "prerequisites": "- AtomicFlow の現行 API 構成を把握していること\n- 仕様書テンプレートが `docs/` に存在する",
+    "completion_criteria": "- [ ] API エンドポイント一覧が記載されている\n- [ ] リクエスト/レスポンス形式が定義されている\n- [ ] レビュー依頼済み",
+    "reasoning": "遠藤雅俊が担当者として明記されており、AtomicFlow は Endo が主導するプロジェクトのため"
+  },
+  {
+    "item_content": "デプロイ手順書を確認して山田さんに共有する",
+    "owner": "other",
+    "prerequisites": null,
+    "completion_criteria": null,
+    "reasoning": "山田太郎が担当者として明記されており、Endo の関与が不要な他者専属タスクのため"
+  },
+  {
+    "item_content": "競合サービスの調査レポートをまとめる",
+    "owner": "unclear",
+    "prerequisites": "- 対象競合サービスのリストが確定していること",
+    "completion_criteria": "- [ ] 競合 3 社以上の比較表が作成されている\n- [ ] 調査結果が vault に保存されている",
+    "reasoning": "担当者が明記されておらず、議事録の文脈から Endo 専属か不明なため"
+  },
+  {
+    "item_content": "この内容は議事録に存在しないためミスマッチになる",
+    "owner": "endo",
+    "prerequisites": "- ミスマッチテスト用エントリ",
+    "completion_criteria": "- [ ] ミスマッチが検知されること",
+    "reasoning": "content 不一致テスト用の意図的なエントリ"
+  },
+  {
+    "item_content": "クライアント向け提案書を作成する",
+    "owner": "endo",
+    "prerequisites": "- クライアントの要件が整理されていること\n- 既存提案書のテンプレートを参照すること",
+    "completion_criteria": "- [ ] 提案書ドラフトが作成されている\n- [ ] クライアントに共有済み",
+    "reasoning": "遠藤雅俊が担当者として明記されており、クライアント向け資料の作成は Endo 主導のため"
+  }
+]

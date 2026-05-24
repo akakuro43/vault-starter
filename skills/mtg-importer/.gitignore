@@ -1,0 +1,8 @@
+# 取り込み済み Drive ID (利用者ごとに異なる)
+transcripts_imported.json
+
+# 旧版の state ファイル (移植時に持ち越し不要)
+imported.json
+enriched_transcripts.json
+people_utterances_cache.json
+processed_transcripts.json

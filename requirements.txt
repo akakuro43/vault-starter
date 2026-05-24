@@ -1,0 +1,11 @@
+# vault-starter — Python 依存
+# Python 3.11+ 推奨
+
+# mtg-importer: Google Drive API
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0
+google-auth-httplib2>=0.1
+html2text>=2024.2.26
+
+# meeting-summarizer / person-enricher / vault-resolver: frontmatter parsing
+pyyaml>=6.0

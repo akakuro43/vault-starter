@@ -1,0 +1,36 @@
+# Secrets & credentials
+.env
+credentials/*
+!credentials/.gitkeep
+
+# Runtime
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian (workspace state — keep user-specific config out)
+vault/.obsidian/workspace*
+vault/.obsidian/cache
+
+# Vault content placeholders kept empty
+vault/00_inbox/meeting_transcripts/*
+!vault/00_inbox/meeting_transcripts/.gitkeep
+vault/01_projects/*
+!vault/01_projects/.gitkeep
+vault/02_people/*
+!vault/02_people/.gitkeep
+vault/03_companies/*
+!vault/03_companies/.gitkeep
+vault/04_meetings/*
+!vault/04_meetings/.gitkeep
+vault/05_tasks/*
+!vault/05_tasks/.gitkeep
